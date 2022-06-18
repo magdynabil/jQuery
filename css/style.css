@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+body {
+    color: #555;
+    background: aliceblue;
+    font-family: Tahoma;
+    font-size: 17px;
+    direction: rtl;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid  #ccc;
+    border-right: 1px solid  #ccc;
+}
+.index{
+    background: #f9f9f9;
+    font-size: 20px;
+    color: #777;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #f1f1f1;
+    margin-top: 4px;
+    width: 90%;
+    margin-right: 8px;
+}
+.more{
+    background: #ccc;
+    font-size: 20px;
+    color: #f50;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #f1f1f1;
+    margin-top: 4px;
+    width: 90%;
+    margin-right: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #f80;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    width: 60%;
+}
+
+h1 {
+    color: #ccc;
+}
+
+#header {
+    background: #f9f9f9;
+    padding: 30px;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+    text-align: right;
+}
+
+#footer {
+    background: #f9f9f9;
+    padding: 12px;
+    height: 30px;
+    border-top: 1px solid #ccc;
+    text-align: right;
+}
+
+.navbar {
+    height: 50px;
+    background: #f1f1f1;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar ul li {
+}
+
+.navbar ul li a {
+    display: block;
+    float: right;
+    background: #f1f1f1;
+    color: #f80;
+    padding: 11px;
+}
+
+.navbar ul li a:hover {
+    background: #ffffff;
+}
+
+input[type=text],input[type=button],textarea{
+    padding: 7px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    background: #f1f1f1;
+}
+input[type=text]:hover,input[type=button]:hover,textarea:hover{
+    background: #f9f9f9;
+}
+.ok{
+ text-align: center;
+    background: #f6f7df;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid  #edf1af;
+    color: #5c6113;
+    border-radius: 7px;
+}
+.no{
+    text-align: center;
+    background: #fcE0E0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid  #F2A0A0;
+    color: #ff0000;
+    border-radius: 7px;
+
+}
